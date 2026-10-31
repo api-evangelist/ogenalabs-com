@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ogenalabs provides automation solutions for AI agents, focusing on blockchain and AI security research. Their platform offers tools to streamline AI agent workflows, integrate secure blockchain technologies, and enhance AI-driven automation. The company emphasizes a mission-driven approach, combining cutting‑edge research with practical product offerings to empower developers and enterprises in building trustworthy AI systems.
+Ogena Labs builds paid APIs and MCP tools for AI agents, offering token risk checks, graduation radar, and merchant checkout on Solana and Base blockchains. Their services are billed per call in USDC via an x402 payment model, requiring no API keys or signup. The platform provides real-time risk assessments, on-chain settlement, and detailed reporting for trading bots and autonomous agents.
 
-**Areas:** AI · Automation · Blockchain · Security · Platform
+**Areas:** Company · AI · Blockchain · Payments · Automation · APIs
 
 ## ogenalabs-com on APIs.io
 
@@ -74,19 +74,50 @@ Everything profiled for ogenalabs-com is published on APIs.io rather than in thi
 
 ### APIs (3)
 
-- [token-risk](https://apis.io/apis/ogenalabs-com/token-risk/) — Token risk x402
-- [gate402](https://apis.io/apis/ogenalabs-com/gate402/) — gate402
-- [signals.edge](https://apis.io/apis/ogenalabs-com/signals-edge/) — signals.edge
+- [Gate402](https://apis.io/apis/ogenalabs-com/gate402/) — x402 checkout creation API.
+- [Signals Edge](https://apis.io/apis/ogenalabs-com/signals-edge/) — Graduation board scan for pump.fun tokens.
+- [ogenalabs-com Token Risk API](https://apis.io/apis/ogenalabs-com/ogenalabs-com-token-risk-api/) — Live paid endpoints.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ogenalabs Com Agentic Access](https://apis.io/agentic-access/ogenalabs-com/ogenalabs-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ogenalabs Com Context](https://apis.io/jsonld/ogenalabs-com/ogenalabs-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ogenalabs-com API Rules](https://apis.io/rules/ogenalabs-com/ogenalabs-com-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Ogenalabs Com Authentication](https://apis.io/security/ogenalabs-com/ogenalabs-com-authentication/)
 - [Ogenalabs Com Domain Security](https://apis.io/security/ogenalabs-com/ogenalabs-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ogenalabs Com Plans Pricing](https://apis.io/plans/ogenalabs-com/ogenalabs-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ogenalabs Com Rate Limits](https://apis.io/rate-limits/ogenalabs-com/ogenalabs-com-rate-limits/)
 
 ## Where to find this API
 
@@ -95,7 +126,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Website](https://ogenalabs.com/)
 - [Documentation](https://ogenalabs.com/docs)
 - [Getting started](https://ogenalabs.com/docs/quickstart)
-- [API reference](https://ogenalabs.com/llms.txt)
+- [API reference](https://ogenalabs.com/docs)
 - [Support](https://ogenalabs.com/contact)
 - [Blog](https://ogenalabs.com/blog)
 - [Privacy policy](https://ogenalabs.com/blog/privacy-preserving-blockchain)
@@ -104,32 +135,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 22.3** — emerging · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 46.1** — developing · rubric 0.25.0 · scored 2026-10-29
 
 | Facet | Score |
 |---|---|
-| Discoverability | 71.4 |
-| Contract quality | 0.0 |
-| Contract governance | 16.4 |
+| Discoverability | 66.1 |
+| Contract quality | 53.0 |
+| Contract governance | 79.1 |
 | Operational transparency | 21.1 |
-| Developer ergonomics | 42.9 |
+| Developer ergonomics | 61.2 |
 | Access clarity | 10.5 |
 
-**Agent readiness 3.1** — human-only
+**Agent readiness 37.9** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
-| Agentic Access | — |
+| Spec Presence | yes |
+| Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | — |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -139,9 +170,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Operation Distinctiveness | — |
 
-**Regulatory alignment 13.6** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 17.5** — Payments
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ogenalabs-com/](https://apis.io/providers/ogenalabs-com/).
 
